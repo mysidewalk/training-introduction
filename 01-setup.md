@@ -1,8 +1,7 @@
 # Setup
+Hopefully by the end of this (meeting/walk-through) your local environment will be done, or well on its way to, installing everything you need to start contributing to the mySidewalk applications!
 
-Hopefully by the end of this (meeting/walkthrough) your local environment will be on its way to installing everything you need to get up and working!
-
-In the meantime, it would be good to refer back to the resources from the overview for a refresher if need be.
+In the meantime, it would be good to refer back to the resources from the overview for a refresher if need be
 
 ## Local "infrastructure"
 - [Vagrant 1.7.1](http://www.vagrantup.com/download-archive/v1.7.1.html)
