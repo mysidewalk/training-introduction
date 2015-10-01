@@ -45,6 +45,14 @@ We standardly release at end of day Monday every week. Occasionally a hotfix may
 You can also check out [Product Updates](https://mysidewalk.readme.io/docs/product-updates) which is a client facing set of notes.
 
 
+## Git Workflow
+
+1. Update from master `git checkout master` `git pull`
+2. Create a local branch to work from `git checkout -b [BRANCH NAME]`
+3. Commit against your local branch `git add .` `git commit -m "#[TICKET NUMBER] - [SHORT MESSAGE]"`
+4. Push your branch remotely `git push -u origin [BRANCH NAME]`
+5. Merge to QA `git checkout qa` `git pull` `git merge [BRANCH NAME]` `git push`
+
 #### Links
 - Next up: [Architecture](03-architecture.md)
 - Previously: [Setup](01-setup.md)
