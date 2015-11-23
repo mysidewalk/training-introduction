@@ -1,9 +1,10 @@
 # MySidewalk Training: Introduction
 
 ## Overview
-- Setting up your local development environments
+- Setting up your local development environment
 - Product team work flow
-- Application architecture/structure overview
+- Python structure
+- JavaScript structure
 
 ## Preparation
 

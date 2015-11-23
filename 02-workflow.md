@@ -1,9 +1,10 @@
 # Workflow
+A high level overview or the process a feature progresses through including some developer specific steps.
 
 ## Tools
-- [Unfuddle](https://mindmixer.unfuddle.com)
+- [Unfuddle](https://mindmixer.unfuddle.com/projects/2083)
 - [Git](http://git-scm.com/)
-- Slack + Jenkins (Friendly neighborhood build bot)
+- Slack ([web](https://slack.com) or [app](https://itunes.apple.com/us/app/slack/id803453959?mt=12))
 
 ## Process
 Not a waterfall workflow. Not an agile workflow. Just the workflow that works for us.
@@ -22,7 +23,7 @@ Happening concurrently-ish should be some level of rough estimation (features or
 
 **Branches**
 
-Once the requirements and specifics have been written up in a ticket, the ticket should be marked as accepted by the individual who is working on it. A branch should be created using the following "template" `[TICKET NUMBER]-[2-3 WORD DESCRIPTION]`. Short sweet to the point. Ticket numbers help make sure names don't collide, and the words help identify branch focus.
+Once the requirements and specifics have been written up in a ticket, the ticket should be marked as accepted by the individual who is working on it. A branch should be created using the following "template" `[TICKET NUMBER]-[2-3 WORD DESCRIPTION]`, e.g. `1234-my-ticket-name`. Short sweet to the point. Ticket numbers help make sure names don't collide, and the words help identify branch focus.
 
 **QA**
 
@@ -46,13 +47,12 @@ You can also check out [Product Updates](https://mysidewalk.readme.io/docs/produ
 
 
 ## Git Workflow
-
-1. Update from master `git checkout master` `git pull`
+1. Update from master `git checkout master` and to be safe `git pull`
 2. Create a local branch to work from `git checkout -b [BRANCH NAME]`
 3. Commit against your local branch `git add .` `git commit -m "#[TICKET NUMBER] - [SHORT MESSAGE]"`
 4. Push your branch remotely `git push -u origin [BRANCH NAME]`
-5. Merge to QA `git checkout qa` `git pull` `git merge [BRANCH NAME]` `git push`
+5. Merge to QA `git checkout qa`, to be sure your are up to date `git pull`, then merge `git merge [BRANCH NAME]`, resolve any conflicts their might be and then `git push`
 
 #### Links
-- Next up: [Architecture](03-architecture.md)
+- Next up: [Structure](03-structure.md)
 - Previously: [Setup](01-setup.md)

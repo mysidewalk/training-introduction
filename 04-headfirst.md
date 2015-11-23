@@ -3,4 +3,4 @@
 ## Overview
 
 #### Links
-- Previously: [Workflow](02-workflow.md)
+- Previously: [Architecture](03-architecture.md)
