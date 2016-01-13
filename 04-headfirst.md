@@ -3,4 +3,4 @@
 ## Overview
 
 #### Links
-- Previously: [Architecture](03-architecture.md)
+- Previously: [Structure](03-structure.md)

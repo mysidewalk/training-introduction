@@ -2,22 +2,24 @@
 
 ## Overview
 - Setting up your local development environment
-- Product team work flow
+- Product team workflow
 - Python structure
 - JavaScript structure
 
-## Preparation
+## Resources
+**General**
 
-
-## Resources (General)
 - [Codeacademy's command line course](https://www.codecademy.com/en/courses/learn-the-command-line)
+- [Docker](https://docs.docker.com/)
 
-## Resources (JavaScript)
+**JavaScript**
+
 - [Codeacademy's JavaScript course](https://www.codecademy.com/tracks/javascript)
 - [JavaScript koans](https://github.com/liammclennan/JavaScript-Koans)
 - [Codeacademy's AngularJS course](https://www.codecademy.com/en/courses/learn-angularjs)
 
-## Resources (Python)
+**Python**
+
 - [Codeacademy's Python syntax course](https://www.codecademy.com/courses/introduction-to-python-6WeG3)
 - [Python koans](https://github.com/gregmalcolm/python_koans)
 

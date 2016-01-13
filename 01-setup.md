@@ -16,7 +16,7 @@ In the meantime, it would be good to refer back to the resources from the overvi
     - [GitHub Desktop](https://desktop.github.com/)
 
 ## Walkthrough
-Rather than duplicate _all_ of the documentation that is already in the repository I will merely point you the the README.md at the root of the repository.
+Rather than duplicate _all_ of the documentation that is already in the repository I will merely point you the the `README.md` at the root of the repository.
 
 `[YOUR REPOSITORY]/README.md`
 
